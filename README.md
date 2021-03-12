@@ -1,6 +1,6 @@
-# CineML-Perfect-Human
+# CineML: Perfect Human
 
-Through the process of training with StyleGAN2, I look into a 13-min short film in Black and White 'The Perfect Human' directed by Jørgen Leth in 1967 and re-examine the idea of Perfect Human that was previous portrayed as a middle class Danish couple performing everyday rituals.
+Through the process of training with StyleGAN2, I look into a 13-min short film in Black and White [The Perfect Human](https://www.youtube.com/watch?v=XqQeSf24phU) directed by Jørgen Leth in 1967 and re-examine the idea of Perfect Human that was previous portrayed as a middle class Danish couple performing everyday rituals.
 
 ## Pre-processing of the Dataset
 
@@ -14,7 +14,7 @@ After exporting the video from Premiere, I started the Google Colab Notebook. Af
 
 Note that the first file location following "-i" is where the exported video at. And the number following '-r' represents how many frame you are going to extract per second. As for the output addresses output-%04d.jpg is meant to generate filename such as "output-0001.jpg" Thus pre-calcuating the size of the image dataset is critial here to determine how many frames I need to extract per second.
 
-Considering that the video itself lasted for a duration of 13:04 minute, which is equivalent to 784 seconds in total. For a decent amount of images and a faster training process, instead of taking 24 frames per second, I chose 12 frames per second, which leads up to 9408 images in total.
+Considering that the video itself lasted for a duration of 13m 04s, which is equivalent to 784 seconds in total. For a decent amount of images and a faster training process, instead of taking 24 frames per second, I chose 12 frames per second, which leads up to 9408 images in total.
 
 ## Training the Model
 
