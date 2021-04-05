@@ -2,6 +2,8 @@
 
 Through the process of training with StyleGAN2, I look into a 13-min short film in Black and White [The Perfect Human](https://www.youtube.com/watch?v=XqQeSf24phU) directed by Jørgen Leth in 1967 and re-examine the idea of Perfect Human that was previous portrayed as a middle class Danish couple performing everyday rituals.
 
+## Why Perfect Human?
+
 ## Pre-processing of the Dataset
 
 Awaring the fact that the GAN aesthetics has been square and requiring 2^n as the number of pixels each side of the square need to have, and remain the authenticity of the footages, I choose not to crop but refill the upper and bottom part with black pixels. YouTube downloader was used to get the video file in mp4 and then the pre-process of the video was done with Premiere.
@@ -45,6 +47,8 @@ This will output a video composed of fake results. Note that "-r" marks the fram
 The generated video can be viewed here: [Fake Results for the Perfect Human](https://vimeo.com/522684582).
 
 
+## Image Sorting
+After running the python command to generate 500 images from the trained network., which takes 1m 22s in Google Colab. I used image sorting software calledn [PicArrange](https://apps.apple.com/app/picarrange/id1530678223) developed by Kai-Uwe Barthel to rearrange these 500 images by similarity. At the same time, I manually broke down cuts of the short film and organized in a slides. Then the re-grouped these generated images in order to map with the original film.
 
 
 
