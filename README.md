@@ -4,6 +4,11 @@ Through the process of training with StyleGAN2, I look into a 13-min short film 
 
 ## Why Perfect Human?
 
+To some extent, every film is stagged. The original film of The Perfect Human by Leth was too obviously staged in a boundless space. It is an unrealistic environment to portray the non-existing perfect human. White background...
+
+And the reason I intentionally choose the 360p low-resolution video found on YouTube is to create an ambiguous and abstract remake that complicates the contested notion of perfect human. The computer-generated fakes also played a crucial part of generalizing ...
+
+
 ## Pre-processing of the Dataset
 
 Awaring the fact that the GAN aesthetics has been square and requiring 2^n as the number of pixels each side of the square need to have, and remain the authenticity of the footages, I choose not to crop but refill the upper and bottom part with black pixels. YouTube downloader was used to get the video file in mp4 and then the pre-process of the video was done with Premiere.
@@ -50,6 +55,7 @@ The generated video can be viewed here: [Fake Results for the Perfect Human](htt
 ## Image Sorting
 After running the python command to generate 500 images from the trained network., which takes 1m 22s in Google Colab. I used image sorting software calledn [PicArrange](https://apps.apple.com/app/picarrange/id1530678223) developed by Kai-Uwe Barthel to rearrange these 500 images by similarity. At the same time, I manually broke down cuts of the short film and organized in a slides. Then the re-grouped these generated images in order to map with the original film.
 
+## Remapping
 
 
-
+## Installtion
