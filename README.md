@@ -58,7 +58,7 @@ After running the python command to generate 500 images from the trained network
 ## Remapping
 Remapping was time consuming because of a "manual" hash table I created for lookup the right sequences. This is where the process can be improved for accuracy and faster production.
 
-[CineML: The Perfect Human]
+![CineML: The Perfect Human](https://vimeo.com/533367370)
 
 ## Installtion
 Previously, I envisioned the work to be installed at the entrance of CIT 4th Floor, since the space had what it takes to match the aesthetics of emptiness that appeared in the original film by Leth. Due to the size of pole doesn't match with the projector and speaker mounts etc, I had to move the installation to the Build Space also on the 4th floor of CIT building.
