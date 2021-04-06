@@ -4,9 +4,9 @@ Through the process of training with StyleGAN2, I look into a 13-min short film 
 
 ## Why Perfect Human?
 
-To some extent, every film is stagged. The original film of The Perfect Human by Leth was too obviously staged in a boundless space. It is an unrealistic environment to portray the non-existing perfect human. White background...
+To some extent, every film is stagged. The original film of The Perfect Human by Leth was too obviously staged in a boundless space. It is an unrealistic environment to portray the non-existing perfect human. White background successfully situates the concept of perfect human far from the reality.
 
-And the reason I intentionally choose the 360p low-resolution video found on YouTube is to create an ambiguous and abstract remake that complicates the contested notion of perfect human. The computer-generated fakes also played a crucial part of generalizing ...
+And the reason I intentionally choose the 360p low-resolution video found on YouTube is to create an ambiguous and abstract remake that complicates the contested notion of perfect human. The computer-generated fakes also played a crucial part of generalizing what perfect human means.
 
 
 ## Pre-processing of the Dataset
@@ -53,9 +53,16 @@ The generated video can be viewed here: [Fake Results for the Perfect Human](htt
 
 
 ## Image Sorting
-After running the python command to generate 500 images from the trained network., which takes 1m 22s in Google Colab. I used image sorting software calledn [PicArrange](https://apps.apple.com/app/picarrange/id1530678223) developed by Kai-Uwe Barthel to rearrange these 500 images by similarity. At the same time, I manually broke down cuts of the short film and organized in a slides. Then the re-grouped these generated images in order to map with the original film.
+After running the python command to generate 500 images from the trained network., which takes 1m 22s in Google Colab. I used image sorting software calledn [PicArrange](https://apps.apple.com/app/picarrange/id1530678223) developed by Kai-Uwe Barthel to rearrange these 500 images by similarity. At the same time, I manually broke down cuts of the short film and organized in a slides. Then the re-grouped these generated images with labels in order to map with the original film.
 
 ## Remapping
+Remapping was time consuming because of a "manual" hash table I created for lookup the right sequences. This is where the process can be improved for accuracy and faster production.
 
+[CineML: The Perfect Human]
 
 ## Installtion
+Previously, I envisioned the work to be installed at the entrance of CIT 4th Floor, since the space had what it takes to match the aesthetics of emptiness that appeared in the original film by Leth. Due to the size of pole doesn't match with the projector and speaker mounts etc, I had to move the installation to the Build Space also on the 4th floor of CIT building.
+
+As for why I chose to present this through video installtion is because the projection will ease the crispness of pixels and blur the images with ambiguity.
+
+![installation.png](https://github.com/Belphe13/cineml-perfect-human/blob/master/installation.png)
