@@ -65,4 +65,4 @@ Previously, I envisioned the work to be installed at the entrance of CIT 4th Flo
 
 As for why I chose to present this through video installtion is because the projection will ease the crispness of pixels and blur the images with ambiguity.
 
-![installation.png](https://github.com/Belphe13/cineml-perfect-human/blob/master/installation.png)
+![installation.png](https://github.com/Belphe13/cineml-perfect-human/blob/master/Installation.png)
