@@ -56,13 +56,26 @@ The generated video can be viewed here: [Fake Results for the Perfect Human](htt
 After running the python command to generate 500 images from the trained network., which takes 1m 22s in Google Colab. I used image sorting software calledn [PicArrange](https://apps.apple.com/app/picarrange/id1530678223) developed by Kai-Uwe Barthel to rearrange these 500 images by similarity. At the same time, I manually broke down cuts of the short film and organized in a slides. Then the re-grouped these generated images with labels in order to map with the original film.
 
 ## Remapping
-Remapping was time consuming because of a "manual" hash table I created for lookup the right sequences. This is where the process can be improved for accuracy and faster production.
+Remapping was time consuming because of a "manual" hash table I created for lookup the right sequences. This is where the process can be improved for accuracy and faster production. Below is the link to my attempt of remake via machine learning. 
 
 [CineML: The Perfect Human](https://vimeo.com/533367370)
 
 ## Installtion
 Previously, I envisioned the work to be installed at the entrance of CIT 4th Floor, since the space had what it takes to match the aesthetics of emptiness that appeared in the original film by Leth. Due to the size of pole doesn't match with the projector and speaker mounts etc, I had to move the installation to the Build Space also on the 4th floor of CIT building.
 
-As for why I chose to present this through video installtion is because the projection will ease the crispness of pixels and blur the images with ambiguity.
+As for why I chose to present this through video installtion is because the projection will ease the crispness of pixels and blur the images with ambiguity as one of the reasons. Also historically, 1960s has been the years where there were a lot of "educational videos" being produced with similiar aesthetics.
 
 ![installation.png](https://github.com/Belphe13/cineml-perfect-human/blob/master/Installation.png)
+
+## Digital-to-Analog Conversion
+Since the film remake with GAN still remains dream-like and film-like qualities, and has gone through processes from shooting directly in the set with 16mm film camera, being converted into digital file and uploaded on YouTube, to being downloaded and taken half of the frames as dataset, and training with GAN. Yet as digitalization becomes inevitably prevailing for longer preservation, I wonder if there is a digiatl-to-analog conversion to make artifacts that was originally computer-generated, and at the same time, it blurs general ideas that film captures the reality and how light leaves traces on chemicals. I intend to challenge these perceptions by transfering the digital video onto transparent film that can be projected with a 16mm film proojector.
+
+### Process
+Research...
+
+### Creating Super 16mm Template
+[]
+
+### Printing on Film
+
+
