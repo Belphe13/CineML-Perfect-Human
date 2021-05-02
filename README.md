@@ -70,12 +70,20 @@ As for why I chose to present this through video installtion is because the proj
 ## Digital-to-Analog Conversion
 Since the film remake with GAN still remains dream-like and film-like qualities, and has gone through processes from shooting directly in the set with 16mm film camera, being converted into digital file and uploaded on YouTube, to being downloaded and taken half of the frames as dataset, and training with GAN. Yet as digitalization becomes inevitably prevailing for longer preservation, I wonder if there is a digiatl-to-analog conversion to make artifacts that was originally computer-generated, and at the same time, it blurs general ideas that film captures the reality and how light leaves traces on chemicals. I intend to challenge these perceptions by transfering the digital video onto transparent film that can be projected with a 16mm film proojector.
 
-### Process
+### Research Process
 Research...
 
 ### Creating Super 16mm Template
-[]
+![]()
+
+### Importing Frames
+Once the template is plotted in InDesign, go to "File > Place..." to select multiple frames. Then by clicking on the placeholder boxes we create, I assign source images to each of the frame on the super 16mm template. In order to adjust size of each source image to match with its placeholder, go to "Object > Fitting" and select either "Fit Content Proportionally" or "Content-aware Fit."
+
+Note: "Fit Content Proportionally" means the whole image will be fit into the box with its original proportion, while "Content-aware Fit" means some of the images might be cut off.
 
 ### Printing on Film
+Testing transparent sheets for both laser and inkjet printer
+
+### Laser Cutting
 
 
