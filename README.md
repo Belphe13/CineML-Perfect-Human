@@ -75,6 +75,7 @@ Research...
 
 ### Creating Super 16mm Template
 ![]()
+After several tests with plotted templates found online, I corrected the right spacing and margins in the InDesign files, with rulers and grids as guides, which is super helpful for the next part of importing 23,520 frames.
 
 ### Importing Frames
 Once the template is plotted in InDesign, go to "File > Place..." to select multiple frames. Then by clicking on the placeholder boxes we create, I assign source images to each of the frame on the super 16mm template. In order to adjust size of each source image to match with its placeholder, go to "Object > Fitting" and select either "Fit Content Proportionally" or "Content-aware Fit."
@@ -82,7 +83,12 @@ Once the template is plotted in InDesign, go to "File > Place..." to select mult
 Note: "Fit Content Proportionally" means the whole image will be fit into the box with its original proportion, while "Content-aware Fit" means some of the images might be cut off.
 
 ### Printing on Film
-Testing transparent sheets for both laser and inkjet printer
+The next is to test transparencies that are generally used for either inkjet printers and laser printers.
+
+The major difference between these two type of printers is that, inkjet printers rely on dye or pigment-based ink to operate, while, laser printers, use toner to produce text and images. I have compared its quailty in prints and in projections below. Naturally inkjet has more bright and vivid colors and laser printers work better with black and white. The CMYK color model is quite obvious despite the darker quality in the laser prints, which mimics how cathode-ray tube works.
+
+* Color CRTs have three cathodes: one for red, green and blue. In color devices, an image is produced by controlling the intensity of each of three electron beams, one for each additive primary color (red, green, and blue) with a video signal as a reference.
+
 
 ### Laser Cutting
 
