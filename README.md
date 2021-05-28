@@ -8,7 +8,9 @@ Later this remake of computer generated moving images are transformed from a dig
 
 ## Who is the Perfect Human?
 What does it mean to be human? Or perfect?
+
 What qualities does a human hold?
+
 Does it represent a particular race? Sex? Sexuality? Ideology? Or cultural representation?
 
 ## Why Perfect Human?
@@ -79,7 +81,7 @@ Remapping was time consuming because of a "manual" hash table I created for look
 
 [CineML: The Perfect Human](https://vimeo.com/533367370)
 
-## Installtion
+## Midterm Installtion
 Previously, I envisioned the work to be installed at the entrance of CIT 4th Floor, since the space had what it takes to match the aesthetics of emptiness that appeared in the original film by Leth. Due to the size of pole doesn't match with the projector and speaker mounts etc, I had to move the installation to the Build Space also on the 4th floor of CIT building.
 
 As for why I chose to present this through video installtion is because the projection will ease the crispness of pixels and blur the images with ambiguity as one of the reasons. Also historically, 1960s has been the years where there were a lot of "educational videos" being produced with similiar aesthetics.
@@ -96,35 +98,86 @@ Over the course of decades ever since the release of the original film, there ha
 
 This process is challenging the authentication of a transitional way of seeing (film and projector), what you see might not be real even if it's from film.
 
-### Research Process
-Research...
-
-### Creating Super 16mm Template
-![]()
-After several tests with plotted templates found online, I corrected the right spacing and margins in the InDesign files, with rulers and grids as guides, which is super helpful for the next part of importing 23,520 frames.
+### Creating 16mm Template
+![template.png](https://github.com/Belphe13/cineml-perfect-human/blob/master/template.png)
+After several tests with plotted templates found online, I corrected the right spacing and margins in the InDesign files, with rulers and grids as guides, which is super helpful for the next part of importing 23,520 frames. This template made the testing such easier during the early stages. Because of the transparent sheets that I have easy access to are letter size, the 16mm template that I'm creating is also in size of 8.5 * 11 inches.
 
 ### Importing Frames
 Once the template is plotted in InDesign, go to "File > Place..." to select multiple frames. Then by clicking on the placeholder boxes we create, I assign source images to each of the frame on the super 16mm template. In order to adjust size of each source image to match with its placeholder, go to "Object > Fitting" and select either "Fit Content Proportionally" or "Content-aware Fit."
 
 Note: "Fit Content Proportionally" means the whole image will be fit into the box with its original proportion, while "Content-aware Fit" means some of the images might be cut off.
 
+However, when it comes to 23,520 frames, it is impossible to click on each of the box to place the still images. That was when  [ImageToCSV.jsx](https://creativepro.com/downloads/forcedl/imagesToCSV104.jsx) script file for InDesign comes in and saved my time. To install the scripts, all I have to do is to go to the script panel "Window > Untilities > Scripts" and then find the "User" folder under the scripts and click on "Reveal in Folder" button. Once the Finder window pops up, drag the script file into that folder and the import process is complete. Then by clicking on the ImageToCVS script and select the folder of choice and, a csv file of the image list will be generated.
+
+Once the list of images is successfully created, we will open up the Data Merge Panel by going to "Window > Utilities > Data Merge," choose "Select Data Source" and look for the cvs file that was just generated. And the next step is to select the graphic frame and then click on the word "images" on the data merge panel. Finally we click on the "Create Merged Document" button and adjust specs on the dialog box. Specs listed below:
+
+Top Margin | 12.779 mm
+Bottom Margin | 7.93 mm
+Left Margin | 0.7276 in
+Right Margin | 0.3719 in
+Arrange by | Columns First
+Spacing Between Columns | 0.2995 in
+Spcaing Bewteen Rows | 0.446 mm
+
+Graphic frame (first image on sheet) transform specs below:
+
+X | 0.7376 in
+Y | 12.779 mm
+W | 0.4005 in
+H | 7.175 mm
+
 ### Printing on Film
 The next is to test transparencies that are generally used for either inkjet printers and laser printers.
 
 The major difference between these two type of printers is that, inkjet printers rely on dye or pigment-based ink to operate, while, laser printers, use toner to produce text and images. I have compared its quailty in prints and in projections below. Naturally inkjet has more bright and vivid colors and laser printers work better with black and white. The CMYK color model is quite obvious despite the darker quality in the laser prints, which mimics how cathode-ray tube works.
 
-* Color CRTs have three cathodes: one for red, green and blue. In color devices, an image is produced by controlling the intensity of each of three electron beams, one for each additive primary color (red, green, and blue) with a video signal as a reference.
+Side note: Color CRTs have three cathodes: one for red, green and blue. In color devices, an image is produced by controlling the intensity of each of three electron beams, one for each additive primary color (red, green, and blue) with a video signal as a reference.
 
 
 ### Laser Cutting
+Once the template is set, I was also advised by Stephen to create a jig as same size as the laser cutting bed. With demension of 18 * 32 inches, the jig is planned to hold 3 sheets at a time in order to have a stable frame. After testing out that MDF (Medium Density Fiberboard) at risd:store 3D was too thick (1/2 in) to have the laser pointer moving around frames, I chose chipboards instead, despite the fact that it also needs additional weight to be held flat inside the machine.
+
+![laser.png](https://github.com/Belphe13/cineml-perfect-human/blob/master/laser.png)
+
+And the process of crafting and making is filled with human errors despite the digital process of making. The parameters in the network training processes that directly affect the realness/closeness to the original data feed. The millimeters of error margin from printing on transparencies and placing on the laser cutter bed. The printed outcome is never perfect.
+
+### Splicing
+After FAV department kindly borrowed me a splicer, I was able to laser cut and splice toegther for earlier completion time. For each sheet it takes about 10 minute to cut and 10 minute to splice.
+
+![splicer.png](https://github.com/Belphe13/cineml-perfect-human/blob/master/splicer.png)
 
 
-Research..
+## Still Images
 
+![man.png](https://github.com/Belphe13/cineml-perfect-human/blob/master/man.png)
+
+![eye.png](https://github.com/Belphe13/cineml-perfect-human/blob/master/eye.png)
+
+## Documentation Video
+It was shot directly at the Steenbeck screen with a Sony a7 and a 50mm prime lens. A full video can be found here: [The Perfect Human](https://youtu.be/ukLvM74W9g4)
+
+## Final Installation
+I was having an extremely difficult time deciding what contents or part of the process I want to show, and where to install the work. Until the very last minute I landed on the idea of showing a two-channel film and video installation with uncut transparent sheets and printed-and-cut filmstrips on the moveable wall. There are two screening planned in the afternoon of the gallary time at 2:30pm and 5pm. Luckily the Kodascope 16mm film projector I found on eBay had no hiccup during th screenings.
+
+![final.png](https://github.com/Belphe13/cineml-perfect-human/blob/master/final.png)
+
+## Next Steps
+1. Burn some filmstrips and document it
+2. Find a better splicer like 16mm Guillotine (Ciro) M.2T Splicer Fixed Pins
+2. Get a hold of a Kodak Pagent sound projector for sound testing
+3. Use the inkjet process on something I filmed myself
+
+## References
+* [Jørgen Leth - The Perfect Human, 1967](https://www.youtube.com/watch?v=XqQeSf24phU)
+* [FILM REVIEW; A Cinematic Duel of Wits For Two Danish Directors](https://www.nytimes.com/2004/05/26/movies/film-review-a-cinematic-duel-of-wits-for-two-danish-directors.html)
+* [Import a Folder Full of Pictures, One Per Page](https://creativepro.com/import-folder-full-pictures-page/)
+* [ImagesToCSV.jsx](https://creativepro.com/downloads/forcedl/imagesToCSV104.jsx)
+* [How to Install Scripts in InDesign](https://creativepro.com/how-to-install-scripts-in-indesign/)
+* ...
 
 ## Acknowledgement
-I want to say huge thank you to the faculties at D+M for pushing me to work outside of my comfort zone, and my amazing cohort for their care and support.
+I want to say huge thank you to everyone is D+M, the faculties at D+M for pushing me to work outside of my comfort zone, and my amazing cohort for their care and support. Especially to Nora and Stephen, I don't think I could ever complete this without your help.
 
-Special thanks to professor Africanus Okokon from FAV for informing my research tremendously and guiding me through my early stages of experimentations.
+Special thanks to professor Africanus Okokon from FAV who has been informing my research tremendously and guiding me through my early stages of experimentations.
 
-Last but not least, Yutong, my partner and a future curator, for watching our pup Ollie when I'm away in PVD, borrowing a black and white laser printer from our friend, walking through my work conceptually and helping with the final installation. 
+Last but not least, Yutong, my partner and a future curator, for watching our pup Ollie when I'm away in PVD, borrowing a black and white laser printer from our friend, walking through my work conceptually and helping with the final installation.
