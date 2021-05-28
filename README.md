@@ -111,6 +111,8 @@ However, when it comes to 23,520 frames, it is impossible to click on each of th
 
 Once the list of images is successfully created, we will open up the Data Merge Panel by going to "Window > Utilities > Data Merge," choose "Select Data Source" and look for the cvs file that was just generated. And the next step is to select the graphic frame and then click on the word "images" on the data merge panel. Finally we click on the "Create Merged Document" button and adjust specs on the dialog box. Specs listed below:
 
+Spacing | Distance
+--------|----------
 Top Margin | 12.779 mm
 Bottom Margin | 7.93 mm
 Left Margin | 0.7276 in
@@ -121,6 +123,8 @@ Spcaing Bewteen Rows | 0.446 mm
 
 Graphic frame (first image on sheet) transform specs below:
 
+Spacing | Distance
+--------|----------
 X | 0.7376 in
 Y | 12.779 mm
 W | 0.4005 in
@@ -136,8 +140,6 @@ Side note: Color CRTs have three cathodes: one for red, green and blue. In color
 
 ### Laser Cutting
 Once the template is set, I was also advised by Stephen to create a jig as same size as the laser cutting bed. With demension of 18 * 32 inches, the jig is planned to hold 3 sheets at a time in order to have a stable frame. After testing out that MDF (Medium Density Fiberboard) at risd:store 3D was too thick (1/2 in) to have the laser pointer moving around frames, I chose chipboards instead, despite the fact that it also needs additional weight to be held flat inside the machine.
-
-![laser.png](https://github.com/Belphe13/cineml-perfect-human/blob/master/laser.png)
 
 And the process of crafting and making is filled with human errors despite the digital process of making. The parameters in the network training processes that directly affect the realness/closeness to the original data feed. The millimeters of error margin from printing on transparencies and placing on the laser cutter bed. The printed outcome is never perfect.
 
