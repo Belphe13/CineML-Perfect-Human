@@ -1,12 +1,31 @@
 # CineML: Perfect Human
 
-Through the process of training with StyleGAN2, I look into a 13-min short film in Black and White [The Perfect Human](https://www.youtube.com/watch?v=XqQeSf24phU) directed by Jørgen Leth in 1967 and re-examine the idea of Perfect Human that was previous portrayed as a middle class Danish couple performing everyday rituals.
+This project is done in the Digital + Media studio class DM-7102 Stuio/Sem 2, under the guidance from professors Adela Goldbard, Alejandro Borsani and Mark Cetilia at Rhode Island School of Design.
+
+Through the process of training with StyleGAN2, I look into a 13-min short film in Black and White [The Perfect Human](https://www.youtube.com/watch?v=XqQeSf24phU) directed by Jørgen Leth in 1967 and re-examine the idea of Perfect Human that was previous portrayed as a middle class Danish couple performing everyday rituals. 
+
+Later this remake of computer generated moving images are transformed from a digital recreation to an analog artifect of celluoids, which is eventually played on a 16mm film projector as a film installation.
+
+## Who is the Perfect Human?
+What does it mean to be human? Or perfect?
+What qualities does a human hold?
+Does it represent a particular race? Sex? Sexuality? Ideology? Or cultural representation?
 
 ## Why Perfect Human?
 
-To some extent, every film is stagged. The original film of The Perfect Human by Leth was too obviously staged in a boundless space. It is an unrealistic environment to portray the non-existing perfect human. White background successfully situates the concept of perfect human far from the reality.
+To some extent, every film is stagged. The original film of The Perfect Human by Leth was too obviously staged in a boundless space. It was filming about a middle-class Danish couple perforing everyday rituals as if they are subjects in a zoom. The film itself examines human behavior in a "suave, pseudo-scientific" way.
 
-And the reason I intentionally choose the 360p low-resolution video found on YouTube is to create an ambiguous and abstract remake that complicates the contested notion of perfect human. The computer-generated fakes also played a crucial part of generalizing what perfect human means.
+It is an unrealistic environment to portray the non-existing perfect human in a bright demonstration room with dissection lights. White background successfully situates the concept of perfect human far from the reality.
+
+To better contextualize the work, the year of release (1967) is also parallel with the prevalence of color TV in the 1960s and educational films that are used for various purposes.
+
+Also a side note: The Perfect Human premiered at the Carlton cinema and was shown before Jean-Luc Godard's La Chinoise.
+
+
+## Why Machine Learning?
+And the reason I intentionally choose the 360p low-resolution video found on YouTube is to create an ambiguous and abstract remake that complicates the contested notion of perfect human. The computer-generated fakes also played a crucial part in generalizing what perfect human means.
+
+I intend to challenge the concept of the perfect human with the intervention of GAN, in this case, StyleGAN2, which is commonly used for producing an unlimited number of portraits of fake human faces.
 
 
 ## Pre-processing of the Dataset
@@ -70,6 +89,13 @@ As for why I chose to present this through video installtion is because the proj
 ## Digital-to-Analog Conversion
 Since the film remake with GAN still remains dream-like and film-like qualities, and has gone through processes from shooting directly in the set with 16mm film camera, being converted into digital file and uploaded on YouTube, to being downloaded and taken half of the frames as dataset, and training with GAN. Yet as digitalization becomes inevitably prevailing for longer preservation, I wonder if there is a digiatl-to-analog conversion to make artifacts that was originally computer-generated, and at the same time, it blurs general ideas that film captures the reality and how light leaves traces on chemicals. I intend to challenge these perceptions by transfering the digital video onto transparent film that can be projected with a 16mm film proojector.
 
+## Why Print?
+What is a film? Is it a roll of filmstrips or a video found online?
+
+Over the course of decades ever since the release of the original film, there have been several iterations of the remake, either by the director Leth himself, or various filmmakers with different intentions. 
+
+This process is challenging the authentication of a transitional way of seeing (film and projector), what you see might not be real even if it's from film.
+
 ### Research Process
 Research...
 
@@ -93,3 +119,12 @@ The major difference between these two type of printers is that, inkjet printers
 ### Laser Cutting
 
 
+Research..
+
+
+## Acknowledgement
+I want to say huge thank you to the faculties at D+M for pushing me to work outside of my comfort zone, and my amazing cohort for their care and support.
+
+Special thanks to professor Africanus Okokon from FAV for informing my research tremendously and guiding me through my early stages of experimentations.
+
+Last but not least, Yutong, my partner and a future curator, for watching our pup Ollie when I'm away in PVD, borrowing a black and white laser printer from our friend, walking through my work conceptually and helping with the final installation. 
