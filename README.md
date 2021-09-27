@@ -1,5 +1,8 @@
 # CineML: Perfect Human
 
+> Certain machine produced forms are the most perfect forms of our period.
+> - G.Metzger, Auto-Destructive Art Machine Art Auto-Creative Art
+
 This project is done in the Digital + Media studio class DM-7102 Stuio/Sem 2, under the guidance from professors Adela Goldbard, Alejandro Borsani and Mark Cetilia at Rhode Island School of Design.
 
 Through the process of training with StyleGAN2, I look into a 13-min short film in Black and White [The Perfect Human](https://www.youtube.com/watch?v=XqQeSf24phU) directed by Jørgen Leth in 1967 and re-examine the idea of Perfect Human that was previous portrayed as a middle class Danish couple performing everyday rituals. 
