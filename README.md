@@ -131,7 +131,7 @@ Spacing | Distance
 X | 0.7376 in
 Y | 12.779 mm
 W | 0.4005 in
-H | 7.175 mm
+H | ~~7.175 mm~~ 7.621mm
 
 #### NOTE: MAKE SURE THERE'S ONLY ONE IMAGE FRAME IN INDESIGN FILE...
 
