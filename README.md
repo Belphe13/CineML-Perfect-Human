@@ -133,6 +133,8 @@ Y | 12.779 mm
 W | 0.4005 in
 H | 7.175 mm
 
+#### NOTE: MAKE SURE THERE'S ONLY ONE IMAGE FRAME IN INDESIGN FILE...
+
 ### Printing on Film
 The next is to test transparencies that are generally used for either inkjet printers and laser printers.
 
