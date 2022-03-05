@@ -116,13 +116,13 @@ Once the list of images is successfully created, we will open up the Data Merge 
 
 Spacing | Distance
 --------|----------
-Top Margin | 12.779 mm
-Bottom Margin | 7.93 mm
-Left Margin | 0.7276 in
-Right Margin | 0.3719 in
+Top Margin | ~~12.779 mm~~ 0.4943 in
+Bottom Margin | ~~7.93 mm~~ 0.275 in
+Left Margin | ~~0.7276 in~~ 0.7344 in
+Right Margin | ~~0.3719 in~~ 0
 Arrange by | Columns First
-Spacing Between Columns | 0.2995 in
-Spcaing Bewteen Rows | 0.446 mm
+Spacing Between Columns | ~~0.2995 in~~ 0.2908 in
+Spcaing Bewteen Rows | ~~0.446 mm~~ 0
 
 Graphic frame (first image on sheet) transform specs below:
 
