@@ -1,4 +1,4 @@
-# CineML: Perfect Human
+# Perfect Human
 
 > Certain machine produced forms are the most perfect forms of our period.
 > - G.Metzger, Auto-Destructive Art Machine Art Auto-Creative Art
